@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:padding="15dp" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold" android:textSize="35dp" android:textAlignment="center" android:text="Spiderman" android:paddingBottom="10dp" android:layout_toRightOf="@+id/icon" android:layout_toEndOf="@+id/icon" android:layout_alignParentTop="true" android:id="@+id/title"/>
+
+    <ImageView android:layout_height="154dp" android:layout_width="131dp" android:id="@+id/icon"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold" android:textSize="25dp" android:textAlignment="center" android:text="Spiderman" android:layout_toRightOf="@+id/title" android:layout_toEndOf="@+id/icon" android:id="@+id/subtitle" android:paddingTop="10dp" android:layout_below="@+id/title"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Delete" android:layout_toRightOf="@+id/icon" android:layout_toEndOf="@+id/icon" android:id="@+id/buttonDelete" android:background="#FF0000" android:layout_alignBottom="@+id/icon"/>
+
+</RelativeLayout>

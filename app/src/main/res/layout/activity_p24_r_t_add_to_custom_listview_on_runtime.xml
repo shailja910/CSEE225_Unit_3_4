@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout tools:context=".P24MainAddToCustomListviewOnRuntime" android:layout_height="match_parent" android:orientation="vertical" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Add Values to listView" android:layout_centerHorizontal="true" android:onClick="doThis" android:layout_below="@+id/editText1" android:id="@+id/button1"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:id="@+id/editText1" android:hint="Add elements listView" android:ems="10" android:layout_marginTop="26dp" android:layout_alignParentTop="true"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:id="@+id/editText2" android:hint="Add elements listView" android:ems="10" android:layout_marginTop="26dp" android:layout_alignParentTop="true"/>
+
+    <ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/list" android:layout_marginBottom="50dp"> </ListView>
+
+</LinearLayout>

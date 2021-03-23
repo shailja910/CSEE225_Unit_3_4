@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="abc"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.A">
+        <activity android:name=".DemoGUICustomET">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".P28ValidationsOnViews"></activity>
+        <activity android:name=".P27ShowPwdEdittext" />
+        <activity android:name=".P26CustomCorneredEditText">
+
+        </activity>
+        <activity android:name=".P25MainCustomEditText"></activity>
+        <activity android:name=".P24MainAddToCustomListviewOnRuntime" />
+        <activity android:name=".P23MainCustomListViewImages" />
+        <activity android:name=".P22MainBasicCustomListViewStaticData" />
+        <activity android:name=".P21DynamicFragmentMain" />
+        <activity android:name=".P20StaticFragmentMain" />
+        <activity android:name=".P19ImageFragmnetMain" />
+    </application>
+
+</manifest>

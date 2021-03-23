@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    tools:context=".P20StaticFragmentMain"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:layout_height="match_parent"
+        android:layout_width="0px" android:layout_weight="1"
+        android:name="com.example.a.P20StaticFragment1"
+        android:id="@+id/fragment1"/>
+
+    <fragment
+        android:layout_height="match_parent"
+        android:layout_width="0px"
+        android:layout_weight="1"
+        android:name="com.example.a.P20StaticFragment2"
+        android:id="@+id/fragment2"/>
+
+</LinearLayout>

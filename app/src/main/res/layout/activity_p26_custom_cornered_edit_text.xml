@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P26CustomCorneredEditText">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/p26_custom_cornered_edittext"
+        android:hint="Your name"
+        android:drawableRight="@drawable/ic_launcher_background"
+        android:padding="10dp" />
+</LinearLayout>
